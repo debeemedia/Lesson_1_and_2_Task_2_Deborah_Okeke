@@ -50,3 +50,227 @@ table {
 
 
 /* Write your css below here */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	height: 500px;
+	font-size: 18px;
+	padding: 20px;
+}
+
+header {
+	background-color: #17180d;
+	padding: 10px;
+	text-align: center;
+}
+
+header span {
+	color: #c8b131;
+	font-size: 1.5em;
+}
+
+header img {
+	height: 50px;
+}
+
+nav ul li {
+	margin-top: 10px;
+	display: inline-flex;
+	list-style-type: none;
+	justify-content: space-around;
+	width: 20%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #524709;
+	text-align: center;
+	padding: 7px;
+}
+
+nav ul li a:hover {
+	background-color: #17180d;
+	color: #f6e89a;
+}
+
+nav {
+	margin-bottom: 50px;
+}
+
+/* HOME PAGE */
+
+div.hero {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+	justify-content: center;
+}
+
+div.hero img {
+	height: 250px;
+}
+
+div.hero div.hero-description {
+	width: 50%;
+	padding: 40px;
+	line-height: 1.3em;
+	color: #17180d;
+}
+
+div.hero div.hero-description h1 {
+	margin-bottom: 10px;
+}
+
+div.hero > div {
+	padding: 10px;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	margin-top: 50px;
+	padding: 20px;
+	background-color: #f0dd73;
+	color: rgb(23, 24, 13);
+	height: 150px;
+	text-align: center;
+}
+
+footer div {
+	padding-bottom: 10px;
+}
+
+footer div.bold {
+	font-weight: bolder;
+}
+
+footer div.italic {
+	font-style: italic;
+}
+
+/* ABOUT PAGE */
+
+section {
+	color: rgb(23, 24, 13);
+	padding: 20px;
+	margin-bottom: 50px;
+}
+
+article {
+	color: #17180d;
+}
+
+article h2 {
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+aside {
+	background-color: #f0dd73;
+	color: #17180d;
+	width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+	font-style: italic;
+	padding: 20px;
+	text-align: center;
+}
+
+aside ul li {
+	list-style-type: circle;
+}
+
+
+aside h3 {
+	margin-bottom: 5px;
+}
+
+table {
+	margin-top: 30px;
+	background-color: #fbefac;
+	color: #17180d;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+table caption {
+	font-weight: bolder;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	font-style: normal;
+}
+
+table button {
+	color: #17180d;
+	background-color: #ffd700;
+	border-radius: 10px;
+	border-style: none;
+}
+table button:hover {
+	background-color: #35381a;
+	color: #fbefac;
+}
+
+table tr {
+	border: 1px solid #17180d;
+}
+
+table tr th {
+	border: 1px solid #17180d;
+}
+
+table tr td {
+	border: 1px solid #17180d;
+	padding: 5px;
+}
+
+table tfoot tr td {
+	border: none;
+}
+
+/* CONTACT PAGE */
+h1 {
+	text-align: center;
+	color: #17180d;
+	margin-bottom: 10px;
+}
+
+form {
+	background-color: #fbefac;
+	color: #17180d;
+	padding: 20px;
+	min-width: 70%;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+form label {
+	margin-right: 25px;
+}
+
+form input {
+	margin-bottom: 5px;
+}
+
+form button {
+	margin-top: 15px;
+	margin-bottom: 25px;
+	color: #17180d;
+	background-color: #ffd700;
+	border-radius: 10px;
+	border-style: none;
+}
+
+form button:hover {
+	background-color: #4e5225;
+	color: #fbefac;
+}
